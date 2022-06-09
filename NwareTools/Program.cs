@@ -10,7 +10,7 @@ namespace NwareTools
     {
         static void Main(string[] args)
         {
-            
+            init.Init();
         }
     }
 }
