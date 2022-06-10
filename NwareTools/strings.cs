@@ -8,13 +8,13 @@ namespace NwareTools
 {
     public static class strings
     {
-        public static string SzipDownload = "https://picteon.dev/files/7-Zip.zip";
-        public static string DiscordDownload = "https://picteon.dev/files/Discord.zip";
-        public static string ChromeDownload = "https://picteon.dev/files/Chrome.zip";
-        public static string NotCMDNvidiaDownload = "https://picteon.dev/files/NotCMDNvidia.exe";
-        public static string ExplorerPP = "https://picteon.dev/files/Explorer++.exe";
-        public static string OBSDownload = "https://picteon.dev/files/OBS%20Studio.zip";
-        public static string WinXShellDownload = "https://picteon.dev/files/WinXShell.zip";
+        public static string SzipDownload = "https://drive.google.com/uc?export=download&id=1JXZHNLr04HrPWVA1EYV7B0uLkT7tPUWc";
+        public static string DiscordDownload = "https://drive.google.com/uc?export=download&id=1MnWW-ovzTzPUVFCzysIeSaKnfA1OxUVS";
+        public static string ChromeDownload = "https://drive.google.com/uc?export=download&id=1cxxHcjgUaP4u2bqzLrBqa-aMkxfGaPDi";
+        public static string NotCMDNvidiaDownload = "https://drive.google.com/uc?export=download&id=1PNXFMJ29b5737KgiY43BLx2326_KcgMJ";
+        public static string ExplorerPP = "https://drive.google.com/uc?export=download&id=1t34mz05yyoYxyQ3f4T0ki2x6oNn7bWbW";
+        public static string OBSDownload = "https://drive.google.com/uc?export=download&id=1GBvcIeIa-hL2qSct-g1KlQ2eyfIWrWet";
+        public static string WinXShellDownload = "https://drive.google.com/uc?export=download&id=1_yCcu4Bh9aWBHyUinm4RAYEAyyVz3Hz2";
 
         public static string TempDownloadLocation = @"C:/Apps/Temp";
 

@@ -13,6 +13,7 @@ namespace NwareTools.Modules.Downloader
     {
         public void Init()
         {
+            Console.Clear();
             GeneralAppLogger.Start("Starting Download Module...");
             Thread.Sleep(350);
             DownloadModuleLogger.DMLog("Creating Directories...");

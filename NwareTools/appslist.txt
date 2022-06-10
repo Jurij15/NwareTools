@@ -1,7 +1,7 @@
-﻿7zip
-discord
-chrome
-cmd
-explorer++
-obs
-winxshell
+﻿7zip                   https://drive.google.com/uc?export=download&id=1JXZHNLr04HrPWVA1EYV7B0uLkT7tPUWc
+discord                https://drive.google.com/uc?export=download&id=1MnWW-ovzTzPUVFCzysIeSaKnfA1OxUVS
+chrome                 https://drive.google.com/uc?export=download&id=1cxxHcjgUaP4u2bqzLrBqa-aMkxfGaPDi
+cmd                    https://drive.google.com/uc?export=download&id=1PNXFMJ29b5737KgiY43BLx2326_KcgMJ
+explorer++             https://drive.google.com/uc?export=download&id=1t34mz05yyoYxyQ3f4T0ki2x6oNn7bWbW
+obs                    https://drive.google.com/uc?export=download&id=1GBvcIeIa-hL2qSct-g1KlQ2eyfIWrWet
+winxshell              https://drive.google.com/uc?export=download&id=1_yCcu4Bh9aWBHyUinm4RAYEAyyVz3Hz2

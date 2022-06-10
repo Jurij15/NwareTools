@@ -10,7 +10,8 @@ namespace NwareTools.Modules.Main
     {
         public static void LoadMain()
         {
-            Console.WindowHeight = 40;
+            Console.WindowHeight = 35;
+            Console.WindowWidth = 55;
             NwareTools.Modules.Main.Windows.MainWindow.StartMain();
         }
     }

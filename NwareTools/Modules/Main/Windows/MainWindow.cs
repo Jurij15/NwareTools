@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using NwareTools.Modules.Downloader;
 
 namespace NwareTools.Modules.Main.Windows
 {
@@ -38,7 +39,8 @@ namespace NwareTools.Modules.Main.Windows
             switch (info.KeyChar)
             {
                 case '1':
-                    Console.WriteLine(">");
+                    NwareTools.Modules.Downloader.init init = new NwareTools.Modules.Downloader.init();
+                    init.Init();
                     break;
                 case '2':
                     Console.WriteLine("<");
