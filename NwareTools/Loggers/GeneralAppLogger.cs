@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace NwareTools.Loggers
 {
-    public static class DownloadModuleLogger
+    public static class GeneralAppLogger
     {
-        public static void DMLog(string text)
+        public static void Start(string text)
         {
-            Console.WriteLine("[DLModule]" + text);
+            Console.WriteLine("[AppGeneral]" + text);
         }
     }
 }

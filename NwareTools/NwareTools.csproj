@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.IO.Compression.FileSystem" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -45,16 +46,22 @@
   <ItemGroup>
     <Compile Include="init.cs" />
     <Compile Include="Loggers\DownloadModuleLogger.cs" />
+    <Compile Include="Loggers\GeneralAppLogger.cs" />
+    <Compile Include="Modules\Downloader\Downloader.cs" />
     <Compile Include="Modules\Downloader\init.cs" />
+    <Compile Include="Modules\Downloader\StandardApps\CreateDir.cs" />
     <Compile Include="Modules\Downloader\StandardApps\StartDownload.cs" />
     <Compile Include="Modules\Main\init.cs" />
     <Compile Include="Modules\Main\Windows\MainWindow.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="strings.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="appslist.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
