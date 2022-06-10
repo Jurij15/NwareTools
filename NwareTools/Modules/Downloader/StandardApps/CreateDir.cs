@@ -57,6 +57,10 @@ namespace NwareTools.Modules.Downloader.StandardApps
             {
                 Directory.CreateDirectory(strings.NotCMDNvidiaFInal);
             }
+            if (!Directory.Exists(strings.NT_NotepadFinal))
+            {
+                Directory.CreateDirectory(strings.NT_NotepadFinal);
+            }
         }
     }
 }

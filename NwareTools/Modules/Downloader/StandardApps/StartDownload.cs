@@ -50,6 +50,10 @@ namespace NwareTools.Modules.Downloader.StandardApps
             DownloadModuleLogger.DMLog("Downloading WinXShell...");
             Downloader.StartDownloader(strings.WinXShellDownload, strings.WinXShellFInalExe);
             DownloadModuleLogger.DMLog("Downloaded WinXShell...");
+            //download NT_Notepad
+            DownloadModuleLogger.DMLog("Downloading Notepad...");
+            Downloader.StartDownloader(strings.NwareToolsNotepadDownload, strings.NT_NotepadFinalExe);
+            DownloadModuleLogger.DMLog("Downloaded WinXShell...");
             DownloadModuleLogger.DMLog("Downloads Finished!");
 
             GeneralAppLogger.Start("Statring Explorer++..");
