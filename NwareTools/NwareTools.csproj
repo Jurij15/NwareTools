@@ -44,6 +44,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="init.cs" />
+    <Compile Include="Loggers\DownloadModuleLogger.cs" />
+    <Compile Include="Modules\Downloader\init.cs" />
+    <Compile Include="Modules\Downloader\StandardApps\StartDownload.cs" />
     <Compile Include="Modules\Main\init.cs" />
     <Compile Include="Modules\Main\Windows\MainWindow.cs" />
     <Compile Include="Program.cs" />
@@ -52,9 +55,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Loggers\" />
-    <Folder Include="Modules\Downloader\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

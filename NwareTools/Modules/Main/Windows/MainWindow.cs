@@ -32,7 +32,7 @@ namespace NwareTools.Modules.Main.Windows
             Console.WriteLine("");
             Console.WriteLine("");
             Console.WriteLine("");
-            Console.WriteLine(">");
+            Console.Write(">");
             var info = Console.ReadKey();
             Console.WriteLine();
             switch (info.KeyChar)
